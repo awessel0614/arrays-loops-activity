@@ -7,11 +7,13 @@
  *    hobbies
  */
 
+
 let hobbies = ['dancing', 'backpacking', 'jewelry-making', 'motorcycles'];
 for (let hobby of hobbies) {
     console.log(hobby);
 }
 console.log(`Total hobbies: ${hobbies.length}`);
+
 
 // Example output
 // 1. swimming
@@ -64,6 +66,7 @@ console.log('Teal was found in colors:', tealCount, 'times');
 // Odd 3, 7, 11
 // Even 2, 8, 4, 2
 
+
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let oddNumbers =[];
 let evenNumbers = [];
@@ -94,6 +97,8 @@ console.log('The even numbers are: ', evenNumbers);
 // Example output
 // true, false, true, true
 // Toggled false, true, false, false
+
+
 
 let booleanValues = [false, true, true, false];
 let toggled = [];
@@ -150,16 +155,3 @@ console.log('After loop: ', newNumbs);
 // Example output
 // 5, 1, 8, 2, 9, 1, 4, 5, 0
 // Greatest Position Distance: 7
-
-
-let largish = [5, 11, 3, 7, 8, 11, 18, 2, 5];
-let counters = [];
- 
-for (let item of largish) {
-    if(counters[item] >= 0) {
-        counters[item] +=1;
-    } else {
-        counters[item] = 1
-    }
-}
-console.table(counters);
